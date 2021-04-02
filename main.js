@@ -1,27 +1,9 @@
-
-        //cost of all products
-        //var total = 0;
-        //index
-        //var i = 1;
-        //message
-        //var message = "item successfully added to cart!";
-        //list of the amount of every product in the cart
-        //var itemCost = [];
-        //add to cart
-        //function add(n){
-
-//show cart
-
-//function(){
-    //const cartInfo = document.getElementByID("cart-info");
-    //const cart = document.getElementByID("cart");
-
-    //cart.classList.toggle()
-
-//}
-
+//I am honestly very confused by the javascript section
+//probably will come to office hours later
+//these are created following a tutorial from Youtube
+//here is the link: https://youtube.com/playlist?list=PLoN_ejT35AEhzNoPStBzAkpqAu3YQwPj7
 var cart = [];
-var Item = function(name, glaze, count, price) {
+var Item = function(name, glaze, count, price) { //individual items in the cart
         this.name = name
         this.glaze = glaze
         this.count = count
